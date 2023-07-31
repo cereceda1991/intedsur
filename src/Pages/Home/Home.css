@@ -1,0 +1,52 @@
+.home-container {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 0.8) 25%, rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 1) 100%), url('../../assets/background.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-secondary);
+}
+
+.home-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.home-container p {
+    font-size: 18px;
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.home-container button {
+    display: flex;
+    gap: 1rem;
+    padding: 12px 24px;
+    background-color: var( --background-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* Media Query para ajustar el contenido en pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    .home-container h1 {
+        font-size: 28px;
+    }
+
+    .home-container p {
+        font-size: 16px;
+    }
+
+    .home-container button {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,80 @@
+.team__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    padding: 3rem;
+}
+
+.team__title {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.team__description {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.team__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: .5rem;
+}
+
+.team__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    border-radius: .5rem;
+}
+
+.team__card-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.team__card-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.team__card-tecnico {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.team__card-contact {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 5px 10px;
+    background-color: #323844;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.2s ease-in-out;
+    border-right: 1px solid #fff;
+    padding-right: 5px;
+    margin-bottom: 1rem;
+}
+
+.team__card-contact:last-child {
+    border-right: none;
+}
+
+.team__card-contact:hover {
+    background-color: #697692;
+}

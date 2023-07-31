@@ -1,0 +1,85 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:var(--background-color);
+    color: var( --text-color);
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu a {
+    text-decoration: none;
+    margin-left: 20px;
+    transition: opacity 0.3s ease;
+    color: var( --text-color);
+}
+
+.menu a:hover {
+    opacity: 0.8;
+    color: var( --link-hover);
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger .line {
+    width: 30px;
+    background-color: var(--text-color);
+    height: 3px;
+    margin: 3px;
+    transition: transform 0.3s ease;
+}
+
+.hamburger.open .line:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.open .line:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.open .line:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Media Query para hacer el menú responsive */
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 90px;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        background-color: var(--background-color);
+    }
+
+    .menu.open {
+        display: flex;
+    }
+
+    .menu a {
+        margin: 10px 0;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}

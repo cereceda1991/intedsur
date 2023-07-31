@@ -1,0 +1,37 @@
+
+.slider-container {
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+    padding:1rem;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.slide {
+    padding: 10px;
+    margin-right: 1rem;
+}
+
+.slide:last-child {
+    margin-right: 0;
+}
+
+.slide img {
+    width: 100%;
+    max-height: auto;
+    object-fit: cover;
+}
+
+.slick-dots {
+    text-align: center;
+    margin: 10px;
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+}
