@@ -1,5 +1,5 @@
 .home-container {
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 0.8) 25%, rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 1) 100%), url('../../assets/background.png');
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 0.8) 25%, rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 1) 100%), url('../../assets/background.webp');
     background-size: cover;
     background-position: center;
     min-height: 100vh;
