@@ -8,14 +8,21 @@
 }
 
 .services__title {
+    display: flex;
+    gap: 1rem;
+
     font-size: 16px;
     margin-bottom: 10px;
     font-weight: 600;
 }
 
+.services__title img {
+    width: 15px;
+}
+
 .services__subtitle {
     font-size: 36px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-weight: 600;
 }
 
@@ -33,14 +40,13 @@
 }
 
 .services__card-icon {
-    width: 30px;
-    margin-bottom: 20px;
+    width: 50px;
+    margin-bottom: 10px;
 }
 
 .services__card-title {
     margin-top: 80px;
     font-size: 20px;
-    margin-bottom: 10px;
     font-weight: 600;
 }
 

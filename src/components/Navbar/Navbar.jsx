@@ -12,9 +12,12 @@ const Navbar = () => {
 
     return (
         <div className="navbar">
+                <Link to='/'>
             <div className="logo">
-                <img src={logo} alt='logo'/>
-                INTEDSUR S.A.C</div>
+                    <img src={logo} alt='logo' />
+                    INTEDSUR S.A.C
+                </div>
+                </Link>
             <div className={`menu ${menuOpen ? 'open' : ''}`}>
                 <Link to="/" onClick={handleMenuToggle}>Inicio</Link>
                 <Link to="/sobre-nosotros" onClick={handleMenuToggle}>Sobre nosotros</Link>

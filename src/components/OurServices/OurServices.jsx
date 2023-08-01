@@ -5,6 +5,7 @@ import icon3 from '../../assets/iconos/icon3.svg';
 import icon4 from '../../assets/iconos/icon4.svg';
 import icon5 from '../../assets/iconos/icon5.svg';
 import icon6 from '../../assets/iconos/icon6.svg';
+import electric from '../../assets/iconos/electric.svg'
 
 const servicesData = [
     {
@@ -42,7 +43,12 @@ const servicesData = [
 const OurServices = () => {
     return (
         <div className="services" id='services'>
-            <h1 className="services__title">Nuestros servicios</h1>
+            <h1 className="services__title">
+            <img src={electric} alt="electric"/>
+                Nuestros servicios
+            <img src={electric} alt="electric"/>
+            </h1>
+
             <h2 className="services__subtitle">Somos profesionales en servicios eléctricos</h2>
             <div className="services__cards">
                 {servicesData.map((service, index) => (

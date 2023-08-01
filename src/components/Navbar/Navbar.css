@@ -9,6 +9,8 @@
 
 .logo {
     font-size: 24px;
+    color: var(--text-color);
+    font-weight: 600;
 }
 
 .menu {
@@ -19,12 +21,16 @@
     text-decoration: none;
     margin-left: 20px;
     transition: opacity 0.3s ease;
-    color: var( --text-color);
+    color: var(--text-color);
+    position: relative;
+    border-bottom: 2px solid var(--background-color);
+    font-weight: 600;
+
 }
 
 .menu a:hover {
-    opacity: 0.8;
-    color: var( --link-hover);
+    color: var(--text-color);
+    border-bottom: 2px solid var(--secondary-color);
 }
 
 .hamburger {
