@@ -1,61 +1,71 @@
-.about-container {
+.about-us {
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
 }
 
-.about-content {
+.about-us__content {
     flex: 1 1 300px;
     order: 2;
 }
 
-.about-content h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.about-content p {
+.about-us__title {
     font-size: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
 }
 
-.about-content ul {
+.about-us__subtitle {
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.about-us__list {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
     padding: 0;
     list-style: none;
     margin-bottom: 20px;
 }
 
-.about-content ul li {
+.about-us__list-item {
     margin-bottom: 8px;
 }
 
-.about-content button {
+.about-us__button {
+    display: flex;
+    gap: 1rem;
     padding: 12px 24px;
     background-color: #333;
     color: #fff;
     border: none;
     border-radius: 4px;
     font-size: 16px;
+    font-weight: 500;
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.image-column {
+.about-us__image-column {
     flex: 1 1 300px;
     position: relative;
     margin-top: 20px;
 }
 
-.image-column img {
+.about-us__image-column img {
     border-radius: 10px;
 }
 
-.image-large {
+.about-us__image-large {
     width: 60%;
     max-width: 100%;
     height: 80%;
 }
 
-.image-small {
+.about-us__image-small {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -67,26 +77,26 @@
 
 /* Media Query para ajustar el contenido en pantallas más pequeñas */
 @media screen and (max-width: 768px) {
-    .about-container {
+    .about-us {
         flex-direction: column;
     }
 
-    .about-content {
+    .about-us__content {
         flex: 1 1 100%;
         order: 1;
     }
 
-    .image-column {
+    .about-us__image-column {
         flex: 1 1 100%;
         order: 2;
         margin-top: 20px;
     }
 
-    .image-column img {
+    .about-us__image-column img {
         max-width: 100%;
     }
 
-    .image-small {
+    .about-us__image-small {
         position: relative;
         max-width: 100%;
         border: none;
