@@ -1,13 +1,19 @@
 .about-us {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 20px;
     min-height: 100vh;
+    max-width: 1440px;
+    margin: auto;
+    position: relative;
 }
 
+/* contenedor de imagenes */
 .about-us__image-column {
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
     align-items: center;
     margin-bottom: 20px;
@@ -21,15 +27,19 @@
     margin-bottom: 10px;
 }
 
+/* contenedor de contenidos */
+
 .about-us__title {
     display: flex;
+    justify-content: center;
     font-size: 24px;
     gap: 1rem;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .about-us__content {
     text-align: center;
+    font-size: 16px;
 }
 
 .about-us__title img {
@@ -54,7 +64,7 @@
 }
 
 .about-us__additional-text {
-    margin-top: 10px;
+    margin-top: 40px;
 }
 
 .about-us__button {
@@ -69,9 +79,11 @@
     cursor: pointer;
     border-radius: 5px;
     margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     .about-us {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -83,26 +95,38 @@
         font-size: 36px;
     }
 
+    .about-us__content {
+        font-size: 16px;
+        }
+
+
     .about-us__image-column {
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
     }
-    
+
     .about-us__image-large,
     .about-us__image-small {
         margin: 0 20px;
         border: solid 2px #ccc;
         border-radius: 20px;
     }
-    
+
     .about-us__image-large {
-        max-width: 70vh;
+        max-width: 535px;
         align-self: flex-start;
-        height: 70vh;
+        height: 686px;
     }
-    
+
     .about-us__image-small {
-        max-width: 30vh;
-        align-self: flex-end; 
+        max-width: 340px;
+        height: 325px;
+        align-self: flex-end;
+        position: absolute;
+        padding: 25px;
+        bottom: 1%;
+        background-color: var(--background-color);
+        z-index: 1;
+        opacity: 0.8;
     }
 }
