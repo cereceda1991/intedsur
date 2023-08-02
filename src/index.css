@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
-  --background-color: #FFFFFF;
-  --background-secondary: #1b1b1b;
+  --background-color: #EEEDED;
+  --background-secondary: #323844;
   --secondary-color: #F6C436;
   --terciary-color: #6fc2b0;
   --quaternary-color:#fff8;
   --text-color: #1b1b1b;
   --text-secondary: #f9f5f6;
-  --link-color: #f9f5f6;
-  --link-hover:#0006;
 }
 
 body {
@@ -53,7 +51,6 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: var(--link-color);
 }
 
 /* ::-webkit-scrollbar {

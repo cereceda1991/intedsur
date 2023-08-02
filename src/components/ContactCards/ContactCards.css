@@ -31,4 +31,14 @@
 .contact-card__subtitle {
     margin: 0;
     font-size: 16px;
+    color:var(--text-color);
 }
+
+.contact-card__subtitle a {
+    color:var(--text-color);
+}
+
+.contact-card__subtitle a:hover {
+    color: var(--text-color); /* Establece el color que desees al hacer hover */
+}
+

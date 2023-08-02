@@ -35,15 +35,12 @@
 
 .footer-column ul li {
     margin-bottom: 10px;
-}
-
-.footer-column ul li a {
-    color: var(--text-color);
     text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
 }
 
 .footer-bottom {
-    background-color: #fff;
     flex-basis: 100%;
     margin-top: 10px;
     padding: 10px;

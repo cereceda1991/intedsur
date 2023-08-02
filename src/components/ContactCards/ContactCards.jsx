@@ -9,8 +9,8 @@ const ContactCards = () => {
                     <FaPhone />
                 </div>
                 <div className="contact-card__content">
-                    <h3 className="contact-card__title">Llamanos</h3>
-                    <p className="contact-card__subtitle">992 829 173</p>
+                    <h3 className="contact-card__title">Llámanos</h3>
+                    <p className="contact-card__subtitle">+51 992 829 173</p>
                 </div>
             </div>
             <div className="contact-card">
@@ -19,7 +19,12 @@ const ContactCards = () => {
                 </div>
                 <div className="contact-card__content">
                     <h3 className="contact-card__title">Correo</h3>
-                    <p className="contact-card__subtitle">intedsur.peru@gmail.com</p>
+                    <a
+                        href="mailto:intedsur.peru@gmail.com"
+                        className="contact-card__subtitle"
+                    >
+                        intedsur.peru@gmail.com
+                    </a>
                 </div>
             </div>
             <div className="contact-card">
@@ -28,7 +33,9 @@ const ContactCards = () => {
                 </div>
                 <div className="contact-card__content">
                     <h3 className="contact-card__title">Ubicación</h3>
-                    <p className="contact-card__subtitle">Mz F Lt 16 flores de villa san juan de Miraflores</p>
+                    <p className="contact-card__subtitle">
+                        Mz F Lt 16 Flores de Villa-San Juan de Miraflores
+                    </p>
                 </div>
             </div>
         </div>

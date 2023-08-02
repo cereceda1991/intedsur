@@ -22,7 +22,7 @@ export const Home = () => {
       <div className="home-container">
         <h1>En INTEDSUR S.A.C estamos listos para ayudarte</h1>
         <p>
-          Somos una empresa joven, dedicada a prestar servicios a proyectos y servicios industriales entregando soluciones tecnológicas destinadas a satisfacer las necesidades de nuestros clientes.
+        Somos una empresa en crecimiento, especializada en brindar servicios para proyectos y operaciones industriales, ofreciendo soluciones tecnológicas diseñadas para satisfacer de manera integral las demandas de nuestros clientes.
         </p>
         <button onClick={scrollToServices}>
           Nuestros servicios <FiArrowUpRight />
