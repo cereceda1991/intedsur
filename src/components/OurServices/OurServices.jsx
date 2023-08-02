@@ -43,13 +43,11 @@ const servicesData = [
 const OurServices = () => {
     return (
         <div className="services" id='services'>
-            <h1 className="services__title">
+            <h2 className="services__title">
             <img src={electric} alt="electric"/>
-                Nuestros servicios
+            Somos profesionales en servicios eléctricos
             <img src={electric} alt="electric"/>
-            </h1>
-
-            <h2 className="services__subtitle">Somos profesionales en servicios eléctricos</h2>
+            </h2>
             <div className="services__cards">
                 {servicesData.map((service, index) => (
                     <div className="services__card" key={index}>
