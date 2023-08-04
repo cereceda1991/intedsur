@@ -9,18 +9,18 @@
 }
 
 .services-section__cards {
-    flex: 1 1 300px;
+    flex: 1 1 400px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    padding: 30px;
 }
 
 .service-card {
     flex: 1 1 200px;
-    background-color:#F3FBFF;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     max-height: 200px;
 }
 
@@ -66,11 +66,11 @@
     .services-section__cards {
         flex: 1 1 100%;
     }
-    
+
     .service-card {
         flex: 1 1 100%;
     }
-    
+
     .services-section__info {
         flex: 1 1 100%;
     }
