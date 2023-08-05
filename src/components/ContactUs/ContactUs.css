@@ -132,10 +132,12 @@
     .contact-us {
         grid-template-columns: 1fr;
         place-items: center;
+        padding: 0;
     }
 
     .contact-us__form-container {
         max-height: none;
+        width: 100%;
     }
 
     .contact-us__form-row input {
