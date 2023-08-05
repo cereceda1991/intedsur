@@ -37,8 +37,8 @@ export const Home = () => {
       {/* <ImageSlider /> */}
       <Team />
       <WorkWithUsSection />
-      <Testimonials />
       <ContactUs />
+      <Testimonials />
       <ContactCards/>
     </>
   );
