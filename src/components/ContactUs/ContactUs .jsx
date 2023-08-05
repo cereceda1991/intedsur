@@ -9,7 +9,7 @@ const ContactUs = () => {
     };
 
     return (
-        <div className="contact-us">
+        <div className="contact-us" id='contact-us-section'>
             <div className="contact-us__form-container">
                 <h2 className="contact-us__title">Contáctanos</h2>
                 <p className="contact-us__description">

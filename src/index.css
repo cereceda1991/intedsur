@@ -3,11 +3,11 @@
 :root {
   --background-color: #FEFEFE;
   --background-secondary: #323844;
+  --background-terciary:#d9d9d9;
   --secondary-color: #F6C436;
   --terciary-color: #6fc2b0;
-  --quaternary-color:#fff8;
-  --text-color: #1b1b1b;
-  --text-secondary: #f9f5f6;
+  --text-color: #323844;
+  --text-secondary: #FEFEFE;
 }
 
 body {

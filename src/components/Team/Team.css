@@ -7,13 +7,12 @@
 }
 
 .team__title {
-    text-align: center;
-    font-size: 16px;
+    font-size: 24px;
     margin-bottom: 10px;
 }
 
 .team__description {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 20px;
     font-weight: 400;
     text-align: center;
@@ -23,8 +22,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
-    padding: 1rem;
-    border: 1px solid #ddd;
+    place-items: center;
     border-radius: .5rem;
 }
 
@@ -34,13 +32,18 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    max-width: 300px;
+    max-height: 443px;
     text-align: center;
     overflow: hidden;
     border-radius: .5rem;
+    padding: 1rem 0rem;
 }
 
 .team__card-img {
+    max-width: 300px;
     width: 100%;
+    border-radius: 50%;
     object-fit: cover;
 }
 
@@ -59,22 +62,23 @@
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
-    padding: 5px 10px;
+    padding: 12px 24px;
     background-color: #323844;
-    color: #fff;
     border-radius: 5px;
-    text-decoration: none;
-    font-size: 14px;
-    transition: background-color 0.2s ease-in-out;
-    border-right: 1px solid #fff;
-    padding-right: 5px;
-    margin-bottom: 1rem;
+    color: var(--background-color);
+    border: none;
 }
 
-.team__card-contact:last-child {
-    border-right: none;
+.team__card-contact img {
+    width: 21px;
 }
 
-.team__card-contact:hover {
-    background-color: #697692;
+@media screen and (min-width: 1200px) {
+    .team__title {
+        font-size: 48px;
+    }
+
+    .team__description {
+        font-size: 32px;
+    }
 }

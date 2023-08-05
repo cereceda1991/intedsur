@@ -1,10 +1,9 @@
 import  { useRef } from 'react'; 
 import './Home.css';
 import WorkWithUsSection from '../../components/WorkWithUsSection/WorkWithUsSection';
-import ServicesSection from '../../components/ServicesSection/ServicesSection';
 import Testimonials from '../../components/Testimonials/Testimonials';
 import ContactCards from '../../components/ContactCards/ContactCards';
-import ImageSlider from '../../components/ImageSlider/ImageSlider';
+// import ImageSlider from '../../components/ImageSlider/ImageSlider';
 import OurServices from '../../components/OurServices/OurServices';
 import ContactUs from '../../components/ContactUs/ContactUs ';
 import AboutUs from '../../components/AboutUs/AboutUs';
@@ -35,12 +34,11 @@ export const Home = () => {
       <OurServices />
       </div>
       <AboutUs />
-      <ServicesSection />
-      <ImageSlider />
+      {/* <ImageSlider /> */}
       <Team />
       <WorkWithUsSection />
       <Testimonials />
-      {/* <ContactUs /> */}
+      <ContactUs />
       <ContactCards/>
     </>
   );

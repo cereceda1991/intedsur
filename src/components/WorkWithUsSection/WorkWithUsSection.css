@@ -1,18 +1,33 @@
 .work-with-us {
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 0.8) 25%, rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 1) 100%), url('../../assets/workwhitus.webp');
+    background: linear-gradient(270.23deg, #323844 26.42%, rgba(50, 56, 68, 0.36) 80.04%), linear-gradient(271deg, #323844 0%, rgba(50, 56, 68, 0.36) 100%), url('../../assets/workwhitus.webp');
     background-size: cover;
     background-position: center;
-    min-height: 50vh;
+    color: var(--text-secondary);
+    max-height: 582px;
+    position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 50px;
+    align-items: flex-end;
+    max-width: 2160px;
+    margin: 0 auto;
+    margin-bottom: 189px;
+}
+
+.section_work {
+    padding: 173px 80px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    color: var(--text-secondary);
+    align-items: flex-end;
 }
 
 .work-with-us__title {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 36px;
+    width: 600px;
+    color: var(--background-color);
+    font-weight: 300;
 }
 
 .work-with-us__button {
@@ -21,8 +36,8 @@
     align-items: center;
     gap: 0.5rem;
     padding: 10px 20px;
-    color: #323844;
-    background-color: #fff;
+    color: var(--text-color);
+    background-color: var(--background-color);
     border: none;
     border-radius: 5px;
     text-decoration: none;
@@ -31,6 +46,33 @@
     transition: background-color 0.2s ease-in-out;
 }
 
-.work-with-us__button:hover {
-    background-color: #697692;
+.contact_cards {
+    position: absolute;
+    width: 100%;
+    bottom: -102px;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 1200px) {
+    .work-with-us {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section_work {
+        padding: 90px 20px;
+    }
+
+    .work-with-us__title {
+        font-size: 24px; 
+        width: auto; 
+    }
+
+    .contact_cards {
+        display: none;
+        transform: none; 
+    }
 }

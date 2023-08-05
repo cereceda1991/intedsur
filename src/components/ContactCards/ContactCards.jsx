@@ -34,7 +34,7 @@ const ContactCards = () => {
                 <div className="contact-card__content">
                     <h3 className="contact-card__title">Ubicación</h3>
                     <p className="contact-card__subtitle">
-                        Mz F Lt 16 Flores de Villa-San Juan de Miraflores
+                        Mz. F Lt. 16, Flores de Villa, San Juan de Miraflores
                     </p>
                 </div>
             </div>

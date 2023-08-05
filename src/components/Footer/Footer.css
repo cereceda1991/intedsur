@@ -41,11 +41,37 @@
 }
 
 .footer-bottom {
-    flex-basis: 100%;
-    margin-top: 10px;
-    padding: 10px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-color);
+    padding: 10px 0;
 }
+
+.footer-bottom h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.footer-bottom p {
+    opacity: 0.5;
+    font-size: 12px;
+    margin: 0;
+}
+
+.footer-bottom p:hover{
+    opacity: 1;
+    font-size: 16px;
+}
+.footer-bottom a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    opacity: 1;
+}
+
 
 @media screen and (max-width: 768px) {
     .footer {

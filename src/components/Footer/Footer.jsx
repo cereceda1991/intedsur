@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="footer">
             <div className="footer-column">
                 <div className="logo">
-                    <img src={logo} alt='logo'/>
+                    <img src={logo} alt='logo' />
                     INTEDSUR S.A.C</div>
                 <p>Todas tus soluciones eléctricas en un solo lugar.</p>
             </div>
@@ -24,12 +24,14 @@ const Footer = () => {
                 <h4>Contacto</h4>
                 <p>+51992829173</p>
                 <p>intedsur.peru@gmail.com</p>
-                <p>Mz F Lt 16 Flores de Villa-San Juan de Miraflores</p>
+                <p>Mz. F Lt. 16, Flores de Villa, San Juan de Miraflores</p>
             </div>
         </div>
         <div className="footer-bottom">
-            © 2023 INTEDSUR, Todos los derechos reservados
+<h3>© 2023 INTEDSUR, Todos los derechos reservados.</h3>
+            <p>Desarrollado por Max Cereceda - <a href="https://www.linkedin.com/in/maxcereceda/">LinkedIn</a> y Diseñado por Elizabeth León - <a href="https://www.linkedin.com/in/elizabethleonperez/">LinkedIn</a></p>
         </div>
+
     </>
     );
 };
