@@ -1,28 +1,30 @@
-.home-container {
-    background: linear-gradient(90.23deg, #323844 26.42%, rgba(50, 56, 68, 0.36) 80.04%), url('../../assets/background.webp');
-    background-position: right;
-    background-size: contain;
+.home_container {
+    background: linear-gradient(90.23deg, #323844 5.42%, rgba(50, 56, 68, 0.36) 80%), url('../../assets/background.webp');
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
     color: var(--text-secondary);
-    padding-left: 1rem;
-    padding-top: 2rem;
+    min-height: 100vh;
 }
 
-.home-container h1 {
-    font-size: 1.5rem;
-    max-width: 31.25rem;
+.info_home {
+    padding:8rem 3rem;
+}
+
+.info_home h1 {
+    font-size: 1.2rem;
+    max-width: 500px;
     font-weight: 700;
     margin: 0;
 }
 
-.home-container p {
+.info_home p {
     font-size: 1rem;
-    max-width: 37.5rem;
+    max-width: 500px;
     margin-bottom: 1.875rem;
 }
 
-.home-container button {
+.info_home button {
     margin-top: 2.5rem;
     display: flex;
     justify-content: center;
@@ -40,19 +42,27 @@
 }
 
 @media screen and (min-width: 768px) {
-
-    .home-container {
-        padding-left: 4.6875rem;
-        padding-top: 9rem;
+    .home_container{
+        background: linear-gradient(90.23deg, #323844 35.42%, rgba(50, 56, 68, 0.36) 80%), url('../../assets/background.webp');
+        background-position: right;
         max-width: 135rem;
+        background-size: contain;
         margin: auto;
     }
+    
+    .info_home{
+        padding:144px;
+    }
 
-    .home-container h1 {
+    .info_home h1 {
         font-size: 3rem;
     }
 
-    .home-container button {
+    .info_home p {
+        max-width: 37.5rem;
+    }
+
+    .info_home button {
         font-size: 1rem;
     }
 }

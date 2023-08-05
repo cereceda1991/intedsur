@@ -2,10 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:var(--background-color);
-    color: var( --text-color);
-    padding: 20px;
+    background-color: var(--background-color);
+    color: var(--text-color);
     height: 56px;
+    padding: 16px 80px;
 }
 
 .logo {
@@ -16,6 +16,7 @@
 
 .menu {
     display: flex;
+    padding-top: 24px;
 }
 
 .menu a {
@@ -67,6 +68,10 @@
 
 /* Media Query para hacer el menú responsive */
 @media screen and (max-width: 768px) {
+    .navbar {
+        padding: 16px;
+    }
+
     .menu {
         display: none;
         flex-direction: column;

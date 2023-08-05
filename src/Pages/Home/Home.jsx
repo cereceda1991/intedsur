@@ -19,7 +19,8 @@ export const Home = () => {
 
   return (
     <>
-      <div className="home-container">
+      <div className="home_container">
+        <section className='info_home'>
         <h1>En INTEDSUR S.A.C</h1>
         <h1> estamos listos para ayudarte</h1>
         <p>
@@ -27,7 +28,8 @@ export const Home = () => {
         </p>
         <button onClick={scrollToServices}>
         Conoce nuestros servicios <FiArrowRight />
-        </button>
+          </button>
+          </section>
       </div>
       <div ref={servicesRef}>
       <OurServices />
@@ -38,7 +40,7 @@ export const Home = () => {
       <Team />
       <WorkWithUsSection />
       <Testimonials />
-      <ContactUs />
+      {/* <ContactUs /> */}
       <ContactCards/>
     </>
   );
