@@ -128,18 +128,25 @@
     box-shadow: -5.450823783874512px 6.05647087097168px 15.562962532043457px 0px rgba(0, 0, 0, 0.05), -25.76753044128418px 28.63058853149414px 60.8370361328125px 0px rgba(0, 0, 0, 0.07), -66.89647674560547px 74.32941436767578px 191px 0px rgba(0, 0, 0, 0.12);
 }
 
-@media (max-width: 768px) {
+@media (max-width:1200px) {
     .contact-us {
         grid-template-columns: 1fr;
-        margin: auto;
         padding: 1rem;
-        width: 100%;
-        max-width: 480px;
+        place-items: center;
     }
 
     .contact-us__form-container {
-        max-width: 100%;
         max-height: none;
+    }
+
+    .contact-us__form-row input {
+        max-width: 100%;
+    }
+
+    .container_two-inputs {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
     }
 
     .contact-us__image1,
