@@ -131,7 +131,6 @@
 @media (max-width:1200px) {
     .contact-us {
         grid-template-columns: 1fr;
-        padding: 1rem;
         place-items: center;
     }
 

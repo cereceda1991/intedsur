@@ -2,7 +2,6 @@ import  { useRef } from 'react';
 import './Home.css';
 import WorkWithUsSection from '../../components/WorkWithUsSection/WorkWithUsSection';
 import Testimonials from '../../components/Testimonials/Testimonials';
-import ContactCards from '../../components/ContactCards/ContactCards';
 // import ImageSlider from '../../components/ImageSlider/ImageSlider';
 import OurServices from '../../components/OurServices/OurServices';
 import ContactUs from '../../components/ContactUs/ContactUs ';
@@ -39,7 +38,6 @@ export const Home = () => {
       <WorkWithUsSection />
       <ContactUs />
       <Testimonials />
-      <ContactCards/>
     </>
   );
 };

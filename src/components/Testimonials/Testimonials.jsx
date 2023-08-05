@@ -1,7 +1,6 @@
 import './Testimonials.css';
 import { BiSolidStar } from 'react-icons/bi';
 
-
 const testimonialsData = [
     {
         testimonial:
@@ -17,7 +16,7 @@ const testimonialsData = [
     },
     {
         testimonial:
-            '“Contratamos a INTEDSUR para realizar un diseño eléctrico detallado para nuestra planta industrial. Cumplieron con todos nuestros requisitos y recomendaciones, superando nuestras expectativas.”',
+            '“Contratamos a INTEDSUR para realizar un diseño eléctrico detallado para nuestra planta industrial. Cumplieron con todos nuestros requisitos y protocolos, superando nuestras expectativas.”',
         author: 'María García',
         stars: 5,
     },
