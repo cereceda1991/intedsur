@@ -131,7 +131,7 @@
 @media (max-width: 768px) {
     .contact-us {
         grid-template-columns: 1fr;
-        padding: 0px 24px;
+        margin: auto;
     }
 
     .contact-us__form-container {
@@ -142,5 +142,5 @@
     .contact-us__image1,
     .contact-us__image2 {
         display: none;
-}
+    }
 }
