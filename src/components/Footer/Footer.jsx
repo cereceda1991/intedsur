@@ -28,7 +28,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="footer-bottom">
-<h3>© 2023 INTEDSUR, Todos los derechos reservados.</h3>
+<h3>© 2023, INTEDSUR S. A. C. Servicios eléctricos. Todos los derechos reservados.</h3>
             <p>Desarrollado por Max Cereceda - <a href="https://www.linkedin.com/in/maxcereceda/">LinkedIn</a> y Diseñado por Elizabeth León - <a href="https://www.linkedin.com/in/elizabethleonperez/">LinkedIn</a></p>
         </div>
 
