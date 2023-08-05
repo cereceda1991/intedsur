@@ -132,6 +132,9 @@
     .contact-us {
         grid-template-columns: 1fr;
         margin: auto;
+        padding: 1rem;
+        width: 100%;
+        max-width: 480px;
     }
 
     .contact-us__form-container {
