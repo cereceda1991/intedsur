@@ -13,7 +13,7 @@ const WorkWithUsSection = () => {
         <h1 className="work-with-us__title">Si quieres trabajar con nosotros, contacta a nuestro equipo de expertos</h1>
         <Link to='/contactanos' onClick={handleContactClick}>
           <button className="work-with-us__button">
-            ¡Contactanos ahora!
+            ¡Contáctanos ahora!
           </button>
           </Link>
         </section>
