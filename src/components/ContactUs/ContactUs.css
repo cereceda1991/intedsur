@@ -110,7 +110,7 @@
     .contact-us {
         grid-template-columns: 1fr;
         place-items: center;
-        padding: 0;
+        padding: 1rem;
     }
 
     .contact-us__form-container {
@@ -120,6 +120,7 @@
 
     .contact-us__title {
         font-size: 24px;
+        font-weight: 500;
     }
 
     .contact-us__form-row input {

@@ -1,15 +1,14 @@
 .slider-container {
     max-width: 1440px;
     text-align: center;
+    padding: 1rem;
     margin: auto;
 }
 
 .slider-container h1 {
-    padding-top: 80px;
     font-size: 24px;
-    margin-bottom: 16px;
     text-align: left;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .slider-container p {
@@ -35,12 +34,13 @@
     .slider-container h1 {
         font-size: 36px;
         text-align: center;
-        padding-top: 89px;
+        padding-top: 80px;
+        margin-bottom: 1rem;
     }
 
     .slider-container p {
         max-width: 966px;
-        text-align: center;
         margin: auto;
+        text-align: center;
     }
 }

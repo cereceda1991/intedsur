@@ -1,5 +1,4 @@
 import './AboutUs.css';
-import { FiArrowRight } from 'react-icons/fi';
 import workImage1 from '../../assets/work1.webp';
 import workImage2 from '../../assets/work2.webp';
 import { Link } from 'react-router-dom';
@@ -31,7 +30,7 @@ const AboutUs = () => {
         </ul>
         <Link to='contactanos' onClick={handleContactClick}>
           <button className="about-us__button">
-            Únete a nuestros clientes satisfechos ¡llámanos! <FiArrowRight />
+            Únete a nuestros clientes satisfechos ¡llámanos!
           </button>
         </Link>
       </section>

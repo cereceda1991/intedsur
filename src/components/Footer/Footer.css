@@ -5,6 +5,8 @@
     color: var(--text-color);
     background-color: var(--secondary-color);
     padding: 20px;
+    max-width: 2160px;
+    margin: auto;
 }
 
 .footer-column {
