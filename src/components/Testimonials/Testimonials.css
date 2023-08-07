@@ -60,6 +60,10 @@
     margin-left: .5rem;
 }
 
+.testimonials:hover .testimonials__cards {
+    animation-play-state: paused;
+}
+
 @keyframes scrollTestimonials {
     0% {
         transform: translateX(0);
