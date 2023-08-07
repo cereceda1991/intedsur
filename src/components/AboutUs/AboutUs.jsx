@@ -1,11 +1,10 @@
 import './AboutUs.css';
 import { FiArrowRight } from 'react-icons/fi';
-import shield_icon from '../../assets/iconos/icon_shield.svg';
 import workImage1 from '../../assets/work1.webp';
-import workImage2 from '../../assets/work2.png';
+import workImage2 from '../../assets/work2.webp';
 import { Link } from 'react-router-dom';
 
-const AboutUs = () => { 
+const AboutUs = () => {
   const handleContactClick = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -18,24 +17,22 @@ const AboutUs = () => {
       </section>
       <section className="about-us__content">
         <h2 className="about-us__title">
-        Tu servicio eléctrico de confianza por siempre
+          Experiencia y profesionalismo en el ámbito industrial
         </h2>
         <p className="about-us__description">
-        El pilar fundamental es del grupo de profesionales que forman parte de esta empresa, los cuales, cumplen con una amplia experiencia en el ámbito industrial, logrando así, un importante respaldo para abordar cualquier proyecto o servicio que sea encomendado.
+          Nuestra misión en INTEDSUR S.A.C es ser líderes en la industria, brindando <b>soluciones integrales y servicios especializados </b>de alta calidad en las áreas de Eléctrica, Electromecánica, Automatización, Neumática y refrigeración industrial.<br></br>
+          Nos comprometemos a satisfacer plenamente las necesidades de nuestros clientes, ofreciendo excelencia técnica, innovación y adaptabilidad para contribuir al éxito y crecimiento de sus proyectos.
         </p>
         <ul className="about-us__list">
-          <li className="about-us__list-item">Reparaciones</li>
-          <li className="about-us__list-item">Nuevas instalaciones</li>
-          <li className="about-us__list-item">Diseño y construcción</li>
-          <li className="about-us__list-item">Soluciones rápidas</li>
+          <li className="about-us__list-item">Eficiencia energética</li>
+          <li className="about-us__list-item">Experiencia comprobada</li>
+          <li className="about-us__list-item">Soluciones personalizadas</li>
+          <li className="about-us__list-item">Servicio especializado</li>
         </ul>
-        <p className="about-us__additional-text">
-        <img src={shield_icon} alt="shield_icon" />
-          Estamos preparados para abordar cualquier necesidad eléctrica.¡No dudes en preguntarnos!</p>
         <Link to='contactanos' onClick={handleContactClick}>
-        <button className="about-us__button">
-        ¡Contáctanos! <FiArrowRight />
-        </button>
+          <button className="about-us__button">
+            Únete a nuestros clientes satisfechos ¡llámanos! <FiArrowRight />
+          </button>
         </Link>
       </section>
     </div>

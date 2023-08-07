@@ -8,7 +8,8 @@
 
 .testimonials__title {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 300;
+    margin-bottom: 40px;
 }
 
 .testimonials__cards {
@@ -24,7 +25,7 @@
     border-radius: 10px;
     justify-content: space-between;
     height: auto;
-    background-color: var(--secondary-color);
+    background-color: var(--background-color);
     max-height: 258px;
     min-width: 363px;
 }
@@ -50,7 +51,7 @@
 
 .testimonials__card-star-icon {
     font-size: 20px;
-    color: var(--background-color);
+    color: var( --secondary-color);
     margin-bottom: -3px;
 }
 
@@ -75,6 +76,6 @@
     }
 
     .testimonials__title {
-        font-size: 48px;
+        font-size: 36px;
     }
 }

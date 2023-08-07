@@ -2,12 +2,14 @@ import  { useRef } from 'react';
 import './Home.css';
 import WorkWithUsSection from '../../components/WorkWithUsSection/WorkWithUsSection';
 import Testimonials from '../../components/Testimonials/Testimonials';
-// import ImageSlider from '../../components/ImageSlider/ImageSlider';
 import OurServices from '../../components/OurServices/OurServices';
 import ContactUs from '../../components/ContactUs/ContactUs ';
 import AboutUs from '../../components/AboutUs/AboutUs';
-import Team from '../../components/Team/Team';
 import { FiArrowRight } from 'react-icons/fi';
+import OurProjects from '../../components/OurProjects/OurProjects';
+import CompanyTimeline from '../../components/CompanyTimeline/CompanyTimeline';
+import ServicesSection from '../../components/ServicesSection/ServicesSection';
+import ContactCards from '../../components/ContactCards/ContactCards';
 
 export const Home = () => {
   const servicesRef = useRef(null); 
@@ -22,7 +24,7 @@ export const Home = () => {
         <h1>En INTEDSUR S.A.C</h1>
         <h1> estamos listos para ayudarte</h1>
         <p>
-        Somas una empresa dedicada a prestar servicios a proyectos y servicios industriales entregando soluciones tecnológicas destinadas a satisfacer las necesidades de nuestros clientes.
+        Somos una empresa dedicada a prestar servicios industriales y brindar soluciones tecnológicas que satisfacen las necesidades de nuestros clientes. Con experiencia en proyectos y servicios especializados, estamos comprometidos con la excelencia en cada paso del camino.
         </p>
         <button onClick={scrollToServices}>
         Conoce nuestros servicios <FiArrowRight />
@@ -33,9 +35,11 @@ export const Home = () => {
       <OurServices />
       </div>
       <AboutUs />
-      {/* <ImageSlider /> */}
-      <Team />
+      <OurProjects />
+      <CompanyTimeline />
+      <ServicesSection/>
       <WorkWithUsSection />
+      <ContactCards/>
       <ContactUs />
       <Testimonials />
     </>

@@ -9,33 +9,33 @@ import icon6 from '../../assets/iconos/icon6.svg';
 const servicesData = [
     {
         icon: icon,
-        title: 'Diseños',
-        description: 'Diseños planos eléctricos, fabricación, montaje y puesta en servicio de tableros de control.',
+        title: 'Diseño y montaje de tableros eléctricos',
+        description: 'Planos eléctricos, fabricación y montaje de tableros de control, puesta en servicio de tableros control.',
     },
     {
         icon: icon2,
-        title: 'Tubería',
-        description: 'Tendido de tubería para puntos de aire comprimido con tubería galvanizada y inoxidable.',
+        title: 'Instalaciones eléctricas',
+        description: 'Tableros de distribución, cableado y remodelaciones industriales y residenciales, iluminación urbana, rural e industrial.',
     },
     {
         icon: icon3,
-        title: 'Mantenimiento',
-        description: 'Mantenimiento de subestaciones, transformadores, tableros y celdas de media tensión.',
+        title: 'Mantenimiento de equipos',
+        description: 'Subestaciones y transformadores, tableros y celdas de media tensión, compresores hasta 900HP, evaporadores y condensadores.',
     },
     {
         icon: icon4,
-        title: 'Fabricación',
-        description: 'Diseño y fabricación de tableros de control para sistemas sala de máquinas control de niveles y bombeo de NH3.',
+        title: 'Servicio de Mantenimiento Industrial',
+        description: 'Reparaciones y modificaciones de máquinas de proceso continuo, túneles estáticos, aire acondicionado, tendido de tuberías y pozos a tierra.',
     },
     {
         icon: icon5,
-        title: 'Fabricación',
-        description: 'Fabricación de tableros de potencia para compresores (freón, NH3, co2 marca Frick, sabré, bitzer, potencias de motores hasta 900hp).',
+        title: 'Tableros de Control Especializados',
+        description: 'Para sistemas de sala de máquinas, cámaras de refrigeración, y túneles de congelamiento.',
     },
     {
         icon: icon6,
-        title: 'Soluciones',
-        description: 'Detección de fallas eléctricas mantenimiento de motores monofásicos y trifásicos eléctricas.',
+        title: 'Automatización y Control Industrial',
+        description: 'Programación y puesta en marcha de sistemas de control (PLC, Variadores de Frecuencia, arrancadores suaves), aplicado en sistemas de bombeo.',
     },
 ];
 
@@ -44,9 +44,11 @@ const OurServices = () => {
         <div className="services" id='services'>
             <div className="services__title">
                 <h2 >
-                    Somos profesionales en
-                    <span>servicios eléctricos</span>
+                    Soluciones a la Medida de tu Industria
                 </h2>
+                <p>
+                    Conoce nuestros servicios especializados para cada tipo de proyecto
+                </p>
             </div>
             <div className="services__cards">
                 {servicesData.map((service, index) => (

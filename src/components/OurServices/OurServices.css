@@ -11,15 +11,18 @@
 
 .services__title {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .services__title h2 {
     font-size: 24px;
+    margin: 0;
 }
 
-.services__title span {
-    margin-left: 8px;
-    color: var(--secondary-color);
+.services__title p {
+    font-size: 16px;
+    margin-top:15px;
 }
 
 .services__cards {
@@ -36,8 +39,9 @@
     border-radius: 10px;
     max-width: 320px;
     max-height: 260px;
-    padding: 32px 24px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 30px 24px;
+    border: 0.8px solid #D2D2D2;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     min-height: 250px;
 }
 
@@ -48,13 +52,13 @@
 }
 
 .services__card-title {
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 500;
-    margin-top: 12px;
 }
 
 .services__card-description {
-    font-size: 16px;
+    margin-top: 12px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
@@ -63,6 +67,10 @@
     }
 
     .services__title h2 {
-        font-size: 48px;
+        font-size: 36px;        
+    }
+
+    .services__title p {
+        font-size: 20px;
     }
 }

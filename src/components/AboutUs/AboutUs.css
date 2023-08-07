@@ -3,10 +3,11 @@
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 30px 0;
     margin: auto;
     background-color: var(--background-terciary);
-    gap: 1.25rem;
+    gap: 16px;
+    height: 100%;
 }
 
 /* contenedor de imagenes */
@@ -21,33 +22,48 @@
 
 .about-us__image-large,
 .about-us__image-small {
-    max-width: 100%;
-    height: auto;
+    display: none;
 }
 
 /* contenedor de contenidos */
 
 .about-us__content {
+    display: flex;
+    flex-direction: column;
     font-size: 16px;
+    max-height: 505.71px;
 }
-
 
 .about-us__title {
     display: flex;
+    font-weight: 300;
     justify-content: center;
     font-size: 24px;
-    gap: 1rem;
+    margin-top: 10.85px;
+    margin-bottom: 24px;
 }
 
+.about-us__description {
+    margin: 0;
+    font-weight: 400;
+    align-self: stretch;
+    line-height: 22px;
+    margin-bottom: 24px;
+    text-align: justify;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    hyphenate-character: "\2010"; 
+}
 
 .about-us__list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-top: 48px;
+    gap: 24px;
 }
 
 .about-us__list-item {
     align-items: center;
-    margin: 24px 0px;
 }
 
 .about-us__list-item::before {
@@ -55,30 +71,16 @@
     margin-right: 5px;
 }
 
-.about-us__additional-text {
-    display: flex;
-    gap: 1rem;
-    margin-top: 40px;
-    border-radius: 16px;
-    padding: 6px 24px;
-    background-color: azure;
-}
-
-.about-us__additional-text img {
-    width: 20px;
-}
-
 .about-us__button {
+    width: 100%;
     display: inline-flex;
     align-items: center;
     gap: 30px;
-    width: 260px;
     height: 60px;
     justify-content: center;
     background-color: var(--background-secondary);
     color: var(--background-color);
     text-decoration: none;
-    padding: 8px 20px;
     cursor: pointer;
     border-radius: 10px;
     margin-top: 24px;
@@ -91,21 +93,14 @@
     .about-us {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 16px;
+        gap: 16px;
         padding: 77px 80px;
         max-height: 660px;
         max-width: 2160px;
     }
 
-    .about-us__content {
-        font-size: 16px;
-    }
-    
-    .about-us__title {
-        font-size: 48px;
-    }  
-    
     .about-us__images {
+        display: flex;
         flex-direction: column;
         justify-content: space-around;
         height: 100%;
@@ -114,25 +109,33 @@
 
     .about-us__image-large,
     .about-us__image-small {
-        border: solid 2px #ccc;
-        border-radius: 20px;
+        display: flex;
+        border-radius: 16px;
     }
 
     .about-us__image-large {
         position: absolute;
         top: 0;
         left: 0;
-        max-width: 363px;
-        height: 396px;
+        max-width: 400px;
+        height: 420px;
     }
 
     .about-us__image-small {
         position: absolute;
-        padding: 20px;
-        max-width: 262px;
-        height: 264px;
+        padding: 17.65px;
+        max-width: 227.29px;
+        height: 229.41px;
         bottom: 0;
         right: 0;
         background-color: var(--background-color);
+    }
+
+    .about-us__title {
+        font-size: 32px;
+    }
+
+    .about-us__button {
+        padding: 19px 63px;
     }
 }

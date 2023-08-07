@@ -1,6 +1,5 @@
 import AboutUs from "../../components/AboutUs/AboutUs"
 import CompanyTimeline from "../../components/CompanyTimeline/CompanyTimeline"
-import ImageSlider from "../../components/ImageSlider/ImageSlider"
 import Team from "../../components/Team/Team"
 import WorkWithUsSection from "../../components/WorkWithUsSection/WorkWithUsSection"
 import './About.css'
@@ -13,7 +12,6 @@ const About = () => {
       </div>
       <AboutUs />
       <CompanyTimeline />
-      <ImageSlider />
       <WorkWithUsSection />
       <Team />
 

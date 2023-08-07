@@ -1,55 +1,68 @@
-import './ServicesSection.css';
+import "./ServicesSection.css";
 
-import serviceImage from '../../assets/services/image.png';
-import icon1 from '../../assets/services/icon.svg';
-import icon2 from '../../assets/services/icon2.svg';
-import icon3 from '../../assets/services/icon3.svg';
-import icon4 from '../../assets/services/icon4.svg';
+import serviceImage from "../../assets/services/image.png";
+import icon1 from "../../assets/services/icon.svg";
+import icon2 from "../../assets/services/icon2.svg";
+import icon3 from "../../assets/services/icon3.svg";
+import icon4 from "../../assets/services/icon4.svg";
 
 const serviceCardsData = [
-    {
-        icon: icon1,
-        title: 'Precio asequible',
-        description: 'Ofrecemos precios competitivos para nuestros servicios, manteniendo la calidad sin comprometer tu presupuesto.',
-    },
-    {
-        icon: icon2,
-        title: 'Disponibilidad 24/7',
-        description: 'Estamos disponibles las 24 horas del día, los 7 días de la semana, para atender tus necesidades eléctricas en cualquier momento.',
-    },
-    {
-        icon: icon3,
-        title: 'Planeación',
-        description: 'Planificamos cada proyecto eléctrico con precisión y eficiencia, asegurándonos de cumplir con tus expectativas y requisitos.',
-    },
-    {
-        icon: icon4,
-        title: 'Consulta gratuita',
-        description: 'Ofrecemos consultas gratuitas para entender tus necesidades y recomendarte las mejores soluciones eléctricas.',
-    },
+  {
+    icon: icon1,
+    title: "Eficiencia y Ahorro",
+    description:
+      "Nuestras soluciones en automatización y control industrial te ayudarán a mejorar la eficiencia de tus procesos y reducir costos operativos.",
+  },
+  {
+    icon: icon2,
+    title: "Profesionalismo y Experiencia",
+    description:
+      "Nuestro equipo altamente capacitado y experimentado garantiza un servicio de alta calidad y resultados exitosos en cada proyecto.",
+  },
+  {
+    icon: icon3,
+    title: "Confianza y Tranquilidad    ",
+    description:
+      "Nuestra ética de trabajo, responsabilidad y compromiso con el éxito del cliente te brindarán confianza y tranquilidad en cada etapa de tu proyecto.",
+  },
+  {
+    icon: icon4,
+    title: "Soluciones a Medida",
+    description:
+      "Nuestra ética de trabajo, responsabilidad y compromiso con el éxito del cliente te brindarán confianza y tranquilidad en cada etapa de tu proyecto.",
+  },
 ];
 
 const ServicesSection = () => {
-    return (
-        <div className="services-section">
-            <div className="services-section__info">
-                <h2 className="about-us__title">
-                    Marcamos la diferencia
-                </h2>
-                <p>Contamos con un equipo de profesionales altamente capacitados que se compromete a lograr resultados excepcionales en cada proyecto que emprendemos. Su dedicación y experiencia son la garantía de que cada tarea se lleva a cabo con excelencia.</p>
-                <img src={serviceImage} alt="Nuestros servicios" />
-            </div>
-            <div className="services-section__cards">
-                {serviceCardsData.map((card, index) => (
-                    <div className="service-card" key={index}>
-                        <img src={card.icon} alt={`Icono ${index + 1}`} />
-                        <h3>{card.title}</h3>
-                        <p>{card.description}</p>
-                    </div>
-                ))}
-            </div>
+  return (
+    <div className="services-section">
+      <section className="services-section__header">
+        <h1>
+          ¡Potencia tu proyecto industrial hoy mismo!
+        </h1>
+        <p>
+          Descubre cómo nuestra amplia trayectoria nos respalda en el sector.
+        </p>
+      </section>
+      <section className="services-section-divisor">
+        <div className="services-section__info">
+          <img src={serviceImage} alt="Nuestros servicios" />
         </div>
-    );
+        <div className="services-section__cards">
+          {serviceCardsData.map((card, index) => (
+            <div className="service-card" key={index}>
+              <img src={card.icon} alt={`Icono ${index + 1}`} />
+              <div>
+                <h3>{card.title}</h3>
+                <p>{card.description}</p>
+              </div>
+
+            </div>
+          ))}
+        </div>
+      </section>
+    </div>
+  );
 };
 
 export default ServicesSection;

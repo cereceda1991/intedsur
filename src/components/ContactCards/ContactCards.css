@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 40px 0px;
 }
 
 .contact-card {
@@ -34,14 +35,20 @@
 .contact-card__subtitle {
     margin: 0;
     font-size: 16px;
-    color:var(--text-color);
+    color: var(--text-color);
 }
 
 .contact-card__subtitle a {
-    color:var(--text-color);
+    color: var(--text-color);
 }
 
 .contact-card__subtitle a:hover {
-    color: var(--text-color); /* Establece el color que desees al hacer hover */
+    color: var(--text-color);
 }
 
+@media (min-width:768px) {
+    .contact-cards {
+        padding: 81px 0px;
+    }
+
+}

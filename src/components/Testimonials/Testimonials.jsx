@@ -44,7 +44,7 @@ const testimonialsData = [
 const Testimonials = () => {
     return (
         <div className="testimonials">
-            <h2 className="testimonials__title">Lo que dicen nuestros clientes</h2>
+            <h2 className="testimonials__title">Proyectos Exitosos, Clientes Satisfechos</h2>
             <div className="testimonials__cards">
                 {testimonialsData.map((testimonial, index) => (
                     <div className="testimonials__card" key={index}>
