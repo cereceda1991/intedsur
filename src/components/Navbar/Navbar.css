@@ -6,6 +6,8 @@
     color: var(--text-color);
     height: 56px;
     padding: 16px 80px;
+    max-width: 2160px;
+    margin: 0 auto;
 }
 
 .logo {
