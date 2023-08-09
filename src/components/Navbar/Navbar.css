@@ -10,12 +10,6 @@
     margin: 0 auto;
 }
 
-.logo {
-    font-size: 24px;
-    color: var(--text-color);
-    font-weight: 600;
-}
-
 .menu {
     display: flex;
     padding-top: 24px;

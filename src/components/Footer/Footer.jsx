@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="footer-column">
                 <div className="logo">
                     <img src={logo} alt='logo' />
-                    <h1>INTEDSUR<br></br> S.A.C</h1></div>
+                    <h1>INTEDSUR S.A.C</h1></div>
                 <p>Todas tus soluciones eléctricas en un solo lugar.</p>
                 <div className='social_icons'>
                     <FaInstagram />
@@ -24,17 +24,19 @@ const Footer = () => {
             <div className="footer-column">
                 <h4>Sobre nosotros</h4>
                 <ul>
-                    <Link to='/' onClick={handleContactClick}><li>Inicio</li></Link>
-                    <Link to='/sobre-nosotros' onClick={handleContactClick}><li>Sobre nosotros</li></Link>
-                    <Link to='/servicios' onClick={handleContactClick}><li>Servicios</li></Link>
-                    <Link to='/contactanos' onClick={handleContactClick}><li>Contáctanos</li></Link>
+                    <li> <Link to='/' onClick={handleContactClick}>Inicio</Link></li>
+                    <li> <Link to='/sobre-nosotros' onClick={handleContactClick}>Sobre nosotros</Link></li>
+                    <li> <Link to='/servicios' onClick={handleContactClick}>Servicios</Link></li>
+                    <li> <Link to='/contactanos' onClick={handleContactClick}>Contáctanos</Link></li>
                 </ul>
             </div>
             <div className="footer-column">
                 <h4>Medios de contacto</h4>
-                <p>Celular: +51 992 829 173</p>
-                <p>Correo: intedsur.peru@gmail.com</p>
-                <p>Ubicación: Mz. F Lt. 16, Flores de Villa, San Juan de Miraflores</p>
+                <ul>
+                    <li>Celular: +51 992 829 173</li>
+                    <li>Correo: intedsur.peru@gmail.com</li>
+                    <li>Ubicación: Mz. F Lt. 16, Flores de Villa, San Juan de Miraflores</li>
+                </ul>
             </div>
         </div>
         <div className="footer-bottom">

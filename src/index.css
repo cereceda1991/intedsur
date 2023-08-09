@@ -5,7 +5,6 @@
   --background-secondary: #323844;
   --background-terciary:#d9d9d9;
   --secondary-color: #F6C436;
-  --terciary-color: #6fc2b0;
   --text-color: #323844;
   --text-secondary: #FEFEFE;
 }
@@ -19,7 +18,7 @@ body {
   color: var(--text-color);
 }
 
-h1,h2,h3 {
+h1,h2,h3,h4 {
   margin: 0;
 }
 
@@ -36,7 +35,6 @@ ul,
 li {
   padding: 0;
   list-style: none;
-  cursor: pointer;
 }
 
 img {
