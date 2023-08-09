@@ -1,11 +1,11 @@
 import './App.css'
-import { Home } from './Pages/Home/Home';
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar'
 import { Route, Routes } from 'react-router-dom';
 import About from './Pages/About/About';
 import Services from './Pages/Services/Services';
 import Contact from './Pages/Contact/Contact';
+import Home from './Pages/Home/Home';
 
 
 function App() {

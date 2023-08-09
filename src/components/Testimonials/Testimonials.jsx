@@ -1,5 +1,6 @@
 import './Testimonials.css';
 import { BiSolidStar } from 'react-icons/bi';
+import PropTypes from 'prop-types';
 
 const testimonialsData = [
     {
@@ -41,9 +42,9 @@ const testimonialsData = [
 ];
 
 
-const Testimonials = () => {
+const Testimonials = ({ backgroundColor}) => {
     return (
-        <div className="testimonials">
+        <div className="testimonials" style={{ backgroundColor }}>
             <h2 className="testimonials__title">Proyectos Exitosos, Clientes Satisfechos</h2>
             <div className="testimonials__cards">
                 {testimonialsData.map((testimonial, index) => (
@@ -63,6 +64,10 @@ const Testimonials = () => {
             </div>
         </div>
     );
+};
+
+Testimonials.propTypes = {
+    backgroundColor: PropTypes.string.isRequired,
 };
 
 export default Testimonials;

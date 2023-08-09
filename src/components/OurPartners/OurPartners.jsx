@@ -76,18 +76,16 @@ const OurPartners = () => {
 
     return (
         <div className="partners-container" ref={partnersContainerRef}>
-            <h2>Nuestros aliados</h2>
+            <p>Nuestros aliados</p>
             <div className="partner-logos">
                 {brandData.map((logo, index) => (
                     <div key={index} className="partner-card">
                         <img src={logo.image} alt={`Logo ${index + 1}`} />
-                        <h3>{logo.name}</h3>
                     </div>
                 ))}
                 {brandData.map((logo, index) => (
                     <div key={index + brandData.length} className="partner-card">
                         <img src={logo.image} alt={`Logo ${index + 1}`} />
-                        <h3>{logo.name}</h3>
                     </div>
                 ))}
             </div>

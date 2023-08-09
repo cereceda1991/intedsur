@@ -1,21 +1,16 @@
 .team__container {
     max-width: 1440px;
-    margin: 0 auto;
     height: auto;
     text-align: center;
-    padding: 3rem;
+    padding: 1rem;
+    margin: auto;
 }
 
 .team__title {
     font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.team__description {
-    font-size: 20px;
-    margin-bottom: 20px;
+    text-align: left;
+    margin-bottom: 30px;
     font-weight: 400;
-    text-align: center;
 }
 
 .team__cards {
@@ -45,41 +40,51 @@
     width: 100%;
     border-radius: 50%;
     object-fit: cover;
+    margin-bottom: 32px;
 }
 
 .team__card-name {
-    font-size: 18px;
-    margin-bottom: 5px;
+    font-size: 20px;
+    margin-bottom: 8px;
 }
 
 .team__card-tecnico {
     font-size: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .team__card-contact {
-    display: inline-flex;
-    justify-content: center;
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
     align-items: center;
-    gap: 0.5rem;
-    padding: 12px 24px;
-    background-color: #323844;
-    border-radius: 5px;
-    color: var(--background-color);
-    border: none;
 }
 
 .team__card-contact img {
-    margin-left: 20px;
     width: 21px;
 }
 
+.team__sub-title {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    font-size: 24px;
+}
+
 @media screen and (min-width: 1200px) {
-    .team__title {
-        font-size: 48px;
+    .team__container {
+        padding: 80px;
     }
 
-    .team__description {
+    .team__title {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .team__sub-title {
         font-size: 32px;
     }
+
+
 }

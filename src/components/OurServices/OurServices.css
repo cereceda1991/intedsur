@@ -8,22 +8,6 @@
     padding: 1rem;
 }
 
-.services__title {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.services__title h2 {
-    font-size: 24px;
-    margin: 0;
-}
-
-.services__title p {
-    font-size: 16px;
-    margin-top:15px;
-}
-
 .services__cards {
     display: flex;
     flex-wrap: wrap;

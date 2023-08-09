@@ -1,7 +1,7 @@
-import AboutUs from "../../components/AboutUs/AboutUs"
 import CompanyTimeline from "../../components/CompanyTimeline/CompanyTimeline"
+import InfoAbout from "../../components/InfoAbout/InfoAbout"
+import MissionVision from "../../components/MissionVision/MissionVision"
 import Team from "../../components/Team/Team"
-import WorkWithUsSection from "../../components/WorkWithUsSection/WorkWithUsSection"
 import './About.css'
 
 const About = () => {
@@ -10,9 +10,9 @@ const About = () => {
       <div className="about__container">
         <h1>Sobre nosotros</h1>
       </div>
-      <AboutUs />
+      <InfoAbout />
+      <MissionVision/>
       <CompanyTimeline />
-      <WorkWithUsSection />
       <Team />
 
     </>

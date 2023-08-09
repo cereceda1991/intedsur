@@ -1,7 +1,12 @@
 .partners-container {
     max-width: 100%;
-    text-align: center;
     overflow: hidden;
+    background-color: var( --background-terciary);
+}
+
+.partners-container p{
+    font-size: 24px;
+    padding-left: 1rem;
 }
 
 .partner-logos {
@@ -26,6 +31,7 @@
     aspect-ratio: 1.5;
     filter: grayscale(100%); 
     transition: filter 0.3s ease; 
+    filter: brightness(1.2) contrast(1.2);
 }
 
 .partner-card:not(:hover) img {
@@ -34,11 +40,6 @@
 
 .partner-card:hover img {
     filter: none;
-    filter: brightness(1.2) contrast(1.2);
-}
-
-.partner-card h3 {
-    margin-top: 10px;
 }
 
 @keyframes scroll {
@@ -47,5 +48,13 @@
     }
     100% {
         transform: translateX(-100%);
+    }
+}
+
+@media (min-width:768px)
+{
+    .partners-container p{
+        font-size: 32px;
+        padding-left: 80px;
     }
 }

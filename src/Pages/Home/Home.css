@@ -8,7 +8,7 @@
 }
 
 .info_home {
-    padding:8rem 1rem;
+    padding: 8rem 1rem;
 }
 
 .info_home h1 {
@@ -41,17 +41,30 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 0.3125rem 0.9375rem;
 }
 
+.service_container {
+    text-align: left;
+    padding: 1rem;
+}
+
+.service_container h1 {
+    font-size: 24px;
+}
+
+.service_container p {
+    font-size: 16px;
+}
+
 @media screen and (min-width: 768px) {
-    .home_container{
+    .home_container {
         background: linear-gradient(90.23deg, #323844 35.42%, rgba(50, 56, 68, 0.36) 80%), url('../../assets/background.webp');
         background-position: right;
         background-size: contain;
         max-width: 2160px;
         margin: auto;
     }
-    
-    .info_home{
-        padding:144px 80px;
+
+    .info_home {
+        padding: 144px 80px;
     }
 
     .info_home h1 {
@@ -64,5 +77,19 @@
 
     .info_home button {
         font-size: 1rem;
+    }
+
+    .service_container {
+        text-align: center;
+        padding: 1rem;
+    }
+    
+    .service_container h1 {
+        font-size: 36px;
+        padding-top: 65px;
+    }
+
+    .service_container p {
+        font-size: 20px;
     }
 }
