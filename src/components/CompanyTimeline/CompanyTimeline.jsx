@@ -18,8 +18,8 @@ const timelineData = [
     },
     {
         icon: icon_world,
-        count: "1",
-        label: "País",
+        count: "6",
+        label: "Perú",
     },
     {
         icon: icon_happy,

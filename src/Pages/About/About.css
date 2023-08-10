@@ -1,5 +1,5 @@
 .about__container {
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 0.8) 25%, rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 1) 100%), url('../../assets/aboutbanner.webp');
+    background: linear-gradient(90.23deg, #323844 26.42%, rgba(50, 56, 68, 0.36) 80.04%), url('../../assets/aboutbanner.webp');
     background-size: cover;
     background-position: center;
     height: 240px;
